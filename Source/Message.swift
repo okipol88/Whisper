@@ -1,6 +1,6 @@
 import UIKit
 
-public struct Message {
+public struct WhisperMessage {
 
   public var title: String
   public var textColor: UIColor
@@ -15,7 +15,7 @@ public struct Message {
   }
 }
 
-public struct Announcement {
+public struct WhisperAnnouncement {
 
   public var title: String
   public var subtitle: String?
@@ -32,7 +32,7 @@ public struct Announcement {
   }
 }
 
-public struct Murmur {
+public struct WhisperMurmur {
 
   public var title: String
   public var duration: NSTimeInterval

@@ -2,7 +2,7 @@ import UIKit
 
 let shout = ShoutView()
 
-public func Shout(announcement: Announcement, to: UIViewController, completion: (() -> ())? = {}) {
+public func Shout(announcement: WhisperAnnouncement, to: UIViewController, completion: (() -> ())? = {}) {
   shout.craft(announcement, to: to, completion: completion)
 }
 
@@ -83,7 +83,7 @@ public class ShoutView: UIView {
     return gesture
     }()
 
-  public private(set) var announcement: Announcement?
+  public private(set) var announcement: WhisperAnnouncement?
   public private(set) var displayTimer = NSTimer()
   public private(set) var panGestureActive = false
   public private(set) var shouldSilent = false
@@ -121,7 +121,7 @@ public class ShoutView: UIView {
 
   // MARK: - Configuration
 
-  public func craft(announcement: Announcement, to: UIViewController, completion: (() -> ())?) {
+  public func craft(announcement: WhisperAnnouncement, to: UIViewController, completion: (() -> ())?) {
     Dimensions.height = UIApplication.sharedApplication().statusBarHidden ? 70 : 80
 
     panGestureActive = false
@@ -132,7 +132,7 @@ public class ShoutView: UIView {
     self.completion = completion
   }
 
-  public func configureView(announcement: Announcement) {
+  public func configureView(announcement: WhisperAnnouncement) {
     self.announcement = announcement
     imageView.image = announcement.image
     titleLabel.text = announcement.title

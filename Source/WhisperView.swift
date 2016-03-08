@@ -37,7 +37,7 @@ public class WhisperView: UIView {
 
   // MARK: - Initializers
 
-  init(height: CGFloat, message: Message) {
+  init(height: CGFloat, message: WhisperMessage) {
     self.height = height
     self.whisperImages = message.images
     super.init(frame: CGRectZero)

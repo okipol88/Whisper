@@ -2,7 +2,7 @@ import UIKit
 
 let whistleFactory = WhistleFactory()
 
-public func Whistle(murmur: Murmur) {
+public func Whistle(murmur: WhisperMurmur) {
   whistleFactory.whistler(murmur)
 }
 
@@ -45,7 +45,7 @@ public class WhistleFactory: UIViewController {
 
   // MARK: - Configuration
 
-  public func whistler(murmur: Murmur) {
+  public func whistler(murmur: WhisperMurmur) {
     titleLabel.text = murmur.title
     titleLabel.font = murmur.font
     titleLabel.textColor = murmur.titleColor

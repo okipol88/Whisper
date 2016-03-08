@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CAA86F622A9255BE7403ABBA6206A68CD1B37E77",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "90c72ef5-1fdf-4a43-8847-ad0fdc5943b3" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CAA86F622A9255BE7403ABBA6206A68CD1B37E77" : 0,
+    "90c72ef5-1fdf-4a43-8847-ad0fdc5943b3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5DB1F04-C436-4398-B536-C58EDA6D1389",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CAA86F622A9255BE7403ABBA6206A68CD1B37E77" : "Whisper\/",
+    "90c72ef5-1fdf-4a43-8847-ad0fdc5943b3" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Whisper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Whisper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/itgen1.cloudapp.net:8443\/svn\/Hospitals",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90c72ef5-1fdf-4a43-8847-ad0fdc5943b3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/okipol88\/Whisper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CAA86F622A9255BE7403ABBA6206A68CD1B37E77"
+    }
+  ]
+}
